@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
 
+  <title>AngoPerguntas 🇦🇴</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background:
+        radial-gradient(circle at top, #4b0015 0%, #120007 35%, #050505 75%, #000 100%);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 25px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 460px;
+      text-align: center;
+    }
+
+    .card {
+      background: linear-gradient(145deg, #1b1b1b, #080808);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 28px;
+      padding: 35px 22px;
+      box-shadow:
+        0 25px 70px rgba(0,0,0,0.8),
+        inset 0 1px rgba(255,255,255,0.08);
+    }
+
+    .flag {
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+
+    .developer {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 50px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      color: #ffd84d;
+      font-weight: bold;
+      font-size: 13px;
+    }
+
+    h1 {
+      margin: 20px 0 8px;
+      font-size: 48px;
+      line-height: 1;
+      text-shadow: 0 8px 25px rgba(0,0,0,0.8);
+    }
+
+    h1 span {
+      color: #d50032;
+    }
+
+    .subtitle {
+      color: #d7d7d7;
+      line-height: 1.6;
+      margin: 0 auto 30px;
+      font-size: 16px;
+    }
+
+    .play-button {
+      display: block;
+      width: 100%;
+      padding: 18px;
+      border-radius: 17px;
+      background: linear-gradient(180deg, #e0003b, #a80027);
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+      box-shadow: 0 12px 35px rgba(210,0,50,0.4);
+      transition: 0.2s;
+    }
+
+    .play-button:active {
+      transform: scale(0.97);
+    }
+
+    .privacy {
+      display: inline-block;
+      margin-top: 22px;
+      color: #aaa;
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    .footer {
+      margin-top: 20px;
+      color: #777;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="card">
+
+      <div class="flag">🇦🇴</div>
+
+      <div class="developer">
+        A.D.M. • LÉO A.D.M.
+      </div>
+
+      <h1>
+        Ango<span>Perguntas</span>
+      </h1>
+
+      <p class="subtitle">
+        O quiz angolano com perguntas, desafios,
+        conhecimentos e muita diversão.
+      </p>
+
+      <a class="play-button" href="jogo.html">
+        CONHECER O JOGO
+      </a>
+
+      <a class="privacy" href="privacidade.html">
+        Política de Privacidade
+      </a>
+
+      <div class="footer">
+        AngoPerguntas 🇦🇴 • Site oficial
+      </div>
+
+    </div>
+
+  </main>
+
+</body>
+</html>
